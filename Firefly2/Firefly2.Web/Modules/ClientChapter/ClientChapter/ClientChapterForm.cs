@@ -72,9 +72,6 @@ namespace Firefly2.ClientChapter.Forms
         public String Envcity { get; set; }
         public String Envstate { get; set; }
         public String Envzip { get; set; }
-        public DateTime CreateDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
-        public String CreatedBy { get; set; }
-        public String ModifiedBy { get; set; }
+
     }
 }

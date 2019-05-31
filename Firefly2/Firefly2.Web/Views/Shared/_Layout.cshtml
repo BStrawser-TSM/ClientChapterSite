@@ -19,7 +19,7 @@
 <head>
     @{Html.RenderPartial(MVC.Views.Shared._LayoutHead);}
     @RenderSection("Head", false)
-    <title>@(ViewData["Title"]) - Firefly2</title>
+    <title>@(ViewData["Title"]) - TrueSense</title>
 </head>
 <body id="s-@(ViewData["PageId"])Page" class="@(ViewData["BodyClass"]) fixed sidebar-mini hold-transition skin-@theme @(darkSidebar ? "dark-sidebar" : "light-sidebar")@(hideNav ? " no-navigation" : " has-layout-event")@(rtl ? " rtl" : "")">
 <div id="PageBackground" style="display: none"></div>
@@ -41,8 +41,8 @@ else
 <div class="wrapper">
     <header class="main-header">
         <a href="~/" class="logo">
-            <span class="logo-mini"><i></i></span>
-            <span class="logo-lg"><i></i><b>TrueSense@*@LocalText.Get("Navigation.SiteTitle")*@</b></span>
+            <span class="logo-mini"><i></i></span>           
+            <span class="logo-lg"><i></i><b>TrueSense</b></span>
         </a>
         <nav class="navbar navbar-static-top" role="navigation">
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">

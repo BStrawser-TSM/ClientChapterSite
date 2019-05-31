@@ -435,33 +435,33 @@ namespace Firefly2.ClientChapter.Entities
             set { Fields.Envzip[this] = value; }
         }
 
-        [DisplayName("Create Date")]
-        public DateTime? CreateDate
-        {
-            get { return Fields.CreateDate[this]; }
-            set { Fields.CreateDate[this] = value; }
-        }
+        //[DisplayName("Create Date")]
+        //public DateTime? CreateDate
+        //{
+        //    get { return Fields.CreateDate[this]; }
+        //    set { Fields.CreateDate[this] = value; }
+        //}
 
-        [DisplayName("Modified Date")]
-        public DateTime? ModifiedDate
-        {
-            get { return Fields.ModifiedDate[this]; }
-            set { Fields.ModifiedDate[this] = value; }
-        }
+        //[DisplayName("Modified Date")]
+        //public DateTime? ModifiedDate
+        //{
+        //    get { return Fields.ModifiedDate[this]; }
+        //    set { Fields.ModifiedDate[this] = value; }
+        //}
 
-        [DisplayName("Created By"), Size(50)]
-        public String CreatedBy
-        {
-            get { return Fields.CreatedBy[this]; }
-            set { Fields.CreatedBy[this] = value; }
-        }
+        //[DisplayName("Created By"), Size(50)]
+        //public String CreatedBy
+        //{
+        //    get { return Fields.CreatedBy[this]; }
+        //    set { Fields.CreatedBy[this] = value; }
+        //}
 
-        [DisplayName("Modified By"), Size(50)]
-        public String ModifiedBy
-        {
-            get { return Fields.ModifiedBy[this]; }
-            set { Fields.ModifiedBy[this] = value; }
-        }
+        //[DisplayName("Modified By"), Size(50)]
+        //public String ModifiedBy
+        //{
+        //    get { return Fields.ModifiedBy[this]; }
+        //    set { Fields.ModifiedBy[this] = value; }
+        //}
 
         IIdField IIdRow.IdField
         {
@@ -542,10 +542,6 @@ namespace Firefly2.ClientChapter.Entities
             public StringField Envcity;
             public StringField Envstate;
             public StringField Envzip;
-            public DateTimeField CreateDate;
-            public DateTimeField ModifiedDate;
-            public StringField CreatedBy;
-            public StringField ModifiedBy;
         }
     }
 }

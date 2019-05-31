@@ -1577,9 +1577,6 @@
     <TypeScriptCompile Include="Imports\ServerTypings\Products.ProductsService.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
-    <Content Include="Modules\Products\Products\ProductsIndex.cshtml" />
-    <TypeScriptCompile Include="Modules\Products\Products\ProductsDialog.ts" />
-    <TypeScriptCompile Include="Modules\Products\Products\ProductsGrid.ts" />
     <TypeScriptCompile Include="Imports\ServerTypings\Products.ProductsForm.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
@@ -1730,13 +1727,6 @@
     <Compile Include="Modules\Administration\UserPermission\UserPermissionRow.cs" />
     <Compile Include="Modules\Administration\UserPermission\UserPermissionRepository.cs" />
     <Compile Include="Modules\Administration\UserPermission\UserPermissionEndpoint.cs" />
-    <Compile Include="Modules\Products\Products\ProductsRow.cs" />
-    <Compile Include="Modules\Products\Products\ProductsRepository.cs" />
-    <Compile Include="Modules\Products\Products\ProductsEndpoint.cs" />
-    <Compile Include="Modules\Products\Products\ProductsPage.cs" />
-    <Compile Include="Modules\Products\Products\ProductsColumns.cs" />
-    <Compile Include="Modules\Products\Products\ProductsForm.cs" />
-    <Compile Include="Modules\Products\ProductsNavigation.cs" />
     <Compile Include="Modules\ClientChapter\ClientChapter\ClientChapterRow.cs" />
     <Compile Include="Modules\ClientChapter\ClientChapter\ClientChapterRepository.cs" />
     <Compile Include="Modules\ClientChapter\ClientChapter\ClientChapterEndpoint.cs" />
