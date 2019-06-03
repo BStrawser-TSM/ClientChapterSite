@@ -9,8 +9,8 @@ namespace Firefly2.Membership
     public class LoginRequest : ServiceRequest
     {
         [Placeholder("default username is 'admin'")]
-        public string Username { get; set; }
-        [PasswordEditor, Placeholder("default password for 'admin' is 'serenity'"), Required(true)]
-        public string Password { get; set; }
+        public string Username = "admin";
+    [PasswordEditor, Placeholder("default password for 'admin' is 'serenity'"), Required(true)]
+        public string Password = "serenity";
     }
 }
